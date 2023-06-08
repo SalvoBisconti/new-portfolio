@@ -10,5 +10,10 @@
 
 body {
   background-color: #161a1d;
+  color: white;
+}
+
+h2 {
+  font-weight: 700;
   color: #ff6961;
 }

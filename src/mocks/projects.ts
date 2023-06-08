@@ -3,7 +3,7 @@ interface linksType {
   url: string;
 }
 
-interface projectsType {
+export interface projectsType {
   id: number;
   name: string;
   image: string;

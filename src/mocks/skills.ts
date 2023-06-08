@@ -1,4 +1,4 @@
-interface skillsType {
+export interface skillsType {
   id: number;
   name: string;
   image: string;
@@ -55,5 +55,10 @@ export const skills: skillsType[] = [
     id: 10,
     name: "TYPESCRIPT",
     image: "/icons/typescript.png",
+  },
+  {
+    id: 11,
+    name: "TAILWIND",
+    image: "/icons/tailwind.png",
   },
 ];
