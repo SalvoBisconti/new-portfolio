@@ -1,9 +1,10 @@
+import Button from "../button";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
 
 const Hero = () => {
   return (
-    <div className="border-2 p-3 border-white w-screen h-[calc(80vh)] flex flex-col justify-center items-center ">
+    <div className="border-2 p-3 border-white w-screen h-[calc(80vh)] flex flex-col justify-center items-center bg-[#100c084c] ">
       <AnimationOnScroll
         animateIn="animate__zoomInDown"
         animatePreScroll={true}
@@ -19,10 +20,7 @@ const Hero = () => {
             passionate about creating interactive applications and experiences
             on the web
           </p>
-
-          <button className="bg-[#ff6961] p-2 text-[#161a1d] font-bold rounded-lg hover:animate-bounce ">
-            Download resume
-          </button>
+          <Button text="Download resume" />
         </div>
       </AnimationOnScroll>
     </div>

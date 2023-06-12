@@ -1,10 +1,11 @@
-import ProjectCard from "../projectCard";
+import ItemList from "../itemList";
+import HeaderText from "../headerText";
 
 const ProjectsSection = () => {
   return (
     <div className="flex flex-col justify-center  items-center ">
-      <h2> My projects</h2>
-      <ProjectCard />
+      <HeaderText text="My projects" />
+      <ItemList type="projects" />
     </div>
   );
 };

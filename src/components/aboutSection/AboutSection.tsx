@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HeaderText from "../headerText";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
 
@@ -11,7 +12,8 @@ const AboutSection = () => {
         // initiallyVisible={false}
         animateOnce={true}
       >
-        <h2 className="text-center p-4 font-bold"> About me</h2>
+        {/* <h2 className="text-center p-4 font-bold"> About me</h2> */}
+        <HeaderText text="About me" />
         <div className=" group flex relative cursor-pointer ">
           <div className="h-48 w-48  rounded z-20">
             <Image
