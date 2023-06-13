@@ -5,7 +5,7 @@ import "animate.css";
 
 const AboutSection = () => {
   return (
-    <div className="flex flex-col justify-center  items-center ">
+    <div className=" pb-8 flex flex-col justify-center  items-center ">
       <AnimationOnScroll
         animateIn="animate__bounceInRight"
         // animatePreScroll={true}
