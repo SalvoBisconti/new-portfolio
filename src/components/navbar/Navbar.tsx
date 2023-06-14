@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="h-15 w-screen border-2 p-3 border-white flex justify-between items-center ">
+    <div className="h-[80px] z-10 bg-[#100c08] fixed w-screen p-3  flex justify-between items-center shadow-sm shadow-[#ff6961]">
       <h2 className="font-mono">
         <span className={"text-lime-500"}> {"<"} </span>
         Salvatore Bisconti <span className="text-lime-500"> {"/>"} </span>
@@ -27,21 +27,30 @@ const Navbar = () => {
         </div>
       </button>
 
-      <List display="hidden" />
+      <List
+        display="hidden"
+        direction="flex-row"
+        gap=""
+        height=""
+        text="text-xl"
+        align=""
+        setOpenMenu={setOpenMenu}
+      />
 
       <div
         className={` ${
-          openMenu ? "h-4/6 w-4/6" : "h-0 w-0 -top-20 "
-        } z-10 absolute  bg-lime-500 top-0 right-[-100px] rounded-s-full  border-2 p-3 border-lime flex justify-between items-center md:hidden`}
+          openMenu ? " right-0  delay-75 " : "h-0 w-0    "
+        } z-10 fixed h-screen w-screen  bg-[#161a1d] top-[0px] right-[-1000px] p-3  flex justify-center items-center md:hidden  transition-all duration-500`}
       >
-        <List display={` ${openMenu ? "block" : "hidden"} `} />
-        {/* <button
-          className={` ${openMenu ? "block" : "hidden"} `}
-          onClick={onHandleClick}
-        >
-          {" "}
-          X{" "}
-        </button> */}
+        <List
+          display={` ${openMenu ? "block" : "hidden"} `}
+          direction={` ${openMenu ? "flex-col" : "flex-row"} `}
+          gap={` ${openMenu ? "gap-8" : ""} `}
+          height={` ${openMenu ? "h-1/2" : ""} `}
+          text={` ${openMenu ? "text-4xl" : ""} `}
+          align={` ${openMenu ? "items-center" : ""} `}
+          setOpenMenu={setOpenMenu}
+        />
       </div>
     </div>
   );
