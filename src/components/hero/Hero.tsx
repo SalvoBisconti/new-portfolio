@@ -29,7 +29,7 @@ const Hero = () => {
           <Button text="Download resume" />
         </div>
 
-        <ul className="absolute top-[35%] left-2 flex flex-col gap-10 justify-center text-3xl md:text-4xl text-[#b63f39]  ">
+        <ul className="absolute top-[35%] left-2 flex flex-col gap-10 justify-center text-3xl md:text-4xl md:left-8 text-[#b63f39]  ">
           <li className="hover:text-[#ff6961]">
             <Link href="https://www.instagram.com/salvo_bisco/">
               <AiFillInstagram />
