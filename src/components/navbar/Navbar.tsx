@@ -25,7 +25,7 @@ const Navbar = () => {
   return (
     <div
       className={`h-[80px] z-10 bg-trasparent fixed w-screen p-3  flex justify-between items-center transition-all duration-700 ${
-        scroll > 0 && "h-[60px] bg-[#100c08] shadow-sm shadow-[#ff6961] "
+        scroll > 0 && "h-[50px] bg-[#100c08] shadow-sm shadow-[#ff6961] "
       }`}
     >
       <h2 className="font-mono ">
@@ -37,13 +37,13 @@ const Navbar = () => {
         onClick={onHandleClick}
       >
         <div
-          className={`relative flex overflow-hidden items-center justify-center rounded-full w-[48px] h-[48px] transform transition-all bg-slate-800  ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md ${
-            scroll > 0 && "w-[38px] h-[38px]"
+          className={`relative flex overflow-hidden items-center justify-center rounded-full w-[48px] h-[48px] transform transition-all bg-slate-800  ring-0 ring-gray-300 hover:ring-4 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md ${
+            scroll > 0 && "w-[36px] h-[36px]"
           } `}
         >
           <div
             className={`flex flex-col justify-between w-[24px] h-[24px] transform transition-all duration-300 origin-center overflow-hidden ${
-              scroll > 0 && " w-[20px] h-[20px]"
+              scroll > 0 && " w-[19px] h-[19px]"
             } `}
           >
             <div
