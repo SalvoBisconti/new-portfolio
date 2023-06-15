@@ -35,7 +35,7 @@ const Navbar = () => {
       </h2>
       <button
         className={` group md:hidden z-30 ${
-          scroll > 0 && "fixed top-4 right-6"
+          scroll > 0 && "fixed top-4 right-3"
         }`}
         onClick={onHandleClick}
       >
