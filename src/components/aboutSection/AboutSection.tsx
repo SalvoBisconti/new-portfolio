@@ -12,12 +12,7 @@ const AboutSection = () => {
       <HeaderText text="About me" />
 
       <div className=" w-screen flex flex-col justify-center items-center md:flex-row md:px-[50px]">
-        <AnimationOnScroll
-          animateIn="animate__bounceInLeft"
-          // animatePreScroll={true}
-          // initiallyVisible={false}
-          animateOnce={true}
-        >
+        <AnimationOnScroll animateIn="animate__bounceInLeft" animateOnce={true}>
           <div className=" group flex relative cursor-pointer ">
             <div className="h-48 w-48  rounded z-20 md:h-52 md:w-52">
               <Image

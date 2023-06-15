@@ -10,15 +10,15 @@ const Navbar = () => {
   console.log(openMenu);
   return (
     <div className="h-[80px] z-10 bg-[#100c08] fixed w-screen p-3  flex justify-between items-center shadow-sm shadow-[#ff6961]">
-      <h2 className="font-mono">
-        <span className={"text-lime-500"}> {"<"} </span>
-        Salvatore Bisconti <span className="text-lime-500"> {"/>"} </span>
+      <h2 className="font-mono ">
+        <span className={"text-white"}> {"<"} </span>
+        Salvatore Bisconti <span className="text-white"> {"/>"} </span>
       </h2>
       <button
         className="relative group md:hidden z-30 "
         onClick={onHandleClick}
       >
-        <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[44px] h-[44px] transform transition-all bg-slate-700 ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
+        <div className="relative flex overflow-hidden items-center justify-center rounded-full w-[48px] h-[48px] transform transition-all bg-slate-800  ring-0 ring-gray-300 hover:ring-8 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md">
           <div
             className={`flex flex-col justify-between w-[24px] h-[24px] transform transition-all duration-300 origin-center overflow-hidden`}
           >
@@ -54,7 +54,7 @@ const Navbar = () => {
       <div
         className={` ${
           openMenu ? " right-[0px]  delay-75 " : "h-0 w-0    "
-        } z-20 fixed h-screen w-screen  bg-[#161a1d] top-[0px] right-[-1000px] p-3  flex justify-center items-center md:hidden  transition-all duration-500`}
+        } z-20 fixed h-screen w-screen  bg-[#161a1d] top-[0px] right-[-1000px] p-3  flex justify-center items-center md:hidden  transition-all duration-1000`}
       >
         <List
           display={` ${openMenu ? "block" : "hidden"} `}

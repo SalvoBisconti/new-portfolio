@@ -17,19 +17,30 @@ const List = (props: {
 
   return (
     <ul
-      className={`${display} ${direction} ${gap} ${align} ${text} ${height} flex md:flex  justify-evenly   w-1/2 text-[#ff6961]   `}
+      className={`${display} ${direction} ${gap} ${align} ${text} ${height} flex md:flex  justify-evenly   w-1/2 text-white font-bold `}
     >
       <li onClick={onHandleClose}>
-        <a href="#home">Home </a>
+        <a
+          className="text-[#ff6961] hover:underline underline-offset-8 "
+          href="#home"
+        >
+          Home{" "}
+        </a>
       </li>
       <li onClick={onHandleClose}>
-        <a href="#about">About me </a>
+        <a className=" hover:underline underline-offset-8" href="#about">
+          About me
+        </a>
       </li>
       <li onClick={onHandleClose}>
-        <a href="#skills">Skills</a>
+        <a className="hover:underline underline-offset-8" href="#skills">
+          Skills
+        </a>
       </li>
       <li onClick={onHandleClose}>
-        <a href="#projects">Projects</a>
+        <a className="hover:underline underline-offset-8" href="#projects">
+          Projects
+        </a>
       </li>
     </ul>
   );
