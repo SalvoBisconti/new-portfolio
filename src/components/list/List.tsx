@@ -17,7 +17,7 @@ const List = (props: {
 
   return (
     <ul
-      className={`${display} ${direction} ${gap} ${align} ${text} ${height} flex md:flex  justify-evenly   w-1/2 text-white font-bold `}
+      className={`${display} ${direction} ${gap} ${align} ${text} ${height} flex md:flex  justify-evenly   w-1/2 text-white font-bold transition-all duration-1000`}
     >
       <li onClick={onHandleClose}>
         <a

@@ -86,4 +86,14 @@ export const projects: projectsType[] = [
       url: "https://twitter-clone-cyan-two.vercel.app/",
     },
   },
+  {
+    id: 8,
+    name: "Portfolio",
+    image: "/projects/portfolio.png",
+    description: "My first portfolio website",
+    links: {
+      repo: "https://github.com/SalvoBisconti/portfolio",
+      url: "https://portfolio-m19nx3rtp-salvobisconti.vercel.app/",
+    },
+  },
 ];
