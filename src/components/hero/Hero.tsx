@@ -3,7 +3,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
 import Link from "next/link";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { saveFile } from "@/utils/func";
+import { SiGmail } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -43,6 +43,11 @@ const Hero = () => {
           <li className="hover:text-[#ff6961]">
             <Link href="https://github.com/SalvoBisconti">
               <AiFillGithub />
+            </Link>
+          </li>
+          <li className="hover:text-[#ff6961]">
+            <Link href="mailto:salvatorebisconti98@gmail.com">
+              <SiGmail />
             </Link>
           </li>
         </ul>
