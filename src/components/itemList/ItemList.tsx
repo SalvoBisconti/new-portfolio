@@ -25,7 +25,6 @@ const ItemList = (props: { type: string }) => {
         : projects?.map((item, i: number) => (
             <AnimationOnScroll
               animateIn="animate__bounceInLeft"
-              delay={i * 180}
               key={item.id}
               animateOnce={true}
             >

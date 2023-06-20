@@ -7,7 +7,7 @@ const ProjectCard = (props: { data: projectsType }) => {
 
   return (
     <div className="relative flex flex-col  items-center justify-center gap-2  w-[400px] rounded-xl   p-4 bg-[#100c084c] md:flex-row md:w-[700px] md:h-[280px] ">
-      <h3 className=" text-xl bold  md:hidden "> {data.name}</h3>
+      <h3 className=" text-xl bold  md:hidden uppercase "> {data.name}</h3>
       <img
         className="w-[75%] rounded-xl md:w-[45%]"
         src={data.image}
@@ -15,7 +15,7 @@ const ProjectCard = (props: { data: projectsType }) => {
       />
 
       <div className="w-full flex flex-col  items-center justify-center">
-        <h3 className="hidden bold text-xl md:flex absolute top-4 ">
+        <h3 className="hidden bold text-xl md:flex absolute top-4 uppercase">
           {data.name}
         </h3>
         <p className="text-center px-6 py-4"> {data.description}</p>
