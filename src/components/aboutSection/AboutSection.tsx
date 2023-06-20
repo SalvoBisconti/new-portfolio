@@ -9,7 +9,9 @@ const AboutSection = () => {
       className=" pb-8 flex flex-col justify-center  items-center md:pb-20 "
       id="about"
     >
-      <HeaderText text="About me" />
+      <AnimationOnScroll animateIn="animate__bounceInRight" animateOnce={true}>
+        <HeaderText text="About me" />
+      </AnimationOnScroll>
 
       <div className=" w-screen flex flex-col justify-center items-center md:flex-row md:px-[50px]">
         <AnimationOnScroll animateIn="animate__bounceInLeft" animateOnce={true}>

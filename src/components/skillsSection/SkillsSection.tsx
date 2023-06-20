@@ -9,7 +9,7 @@ const SkillsSection = () => {
       className=" pb-8 flex flex-col justify-center  items-center bg-[#100c084c]  "
       id="skills"
     >
-      <AnimationOnScroll animateIn="animate__bounceInLeft" animateOnce={true}>
+      <AnimationOnScroll animateIn="animate__bounceInRight" animateOnce={true}>
         <HeaderText text="Skills-set" />
       </AnimationOnScroll>
       <ItemList type="skills" />
