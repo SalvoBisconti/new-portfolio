@@ -25,6 +25,16 @@ export const projects: projectsType[] = [
   },
   {
     id: 2,
+    name: "Portfolio",
+    image: "/projects/portfolio.png",
+    description: "My first portfolio website",
+    links: {
+      repo: "https://github.com/SalvoBisconti/portfolio",
+      url: "https://portfolio-m19nx3rtp-salvobisconti.vercel.app/",
+    },
+  },
+  {
+    id: 3,
     name: "My Cocktails",
     image: "/projects/myCocktails.png",
     description:
@@ -35,7 +45,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 3,
+    id: 4,
     name: "Calendar",
     image: "/projects/calendar.png",
     description: "A simple calendar app",
@@ -45,7 +55,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 4,
+    id: 5,
     name: "ITRAVEL",
     image: "/projects/Itravel.png",
     description:
@@ -56,7 +66,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 5,
+    id: 6,
     name: "MyEcommerce",
     image: "/projects/myEcommerce.png",
     description: "An ecommerce project realized with React.js",
@@ -67,7 +77,7 @@ export const projects: projectsType[] = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "TodoList",
     image: "/projects/todoList.png",
     description: "An todo list app where is possible add/remove a todo ",
@@ -77,23 +87,13 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 7,
+    id: 8,
     name: "Twitter Clone",
     image: "/projects/Twitter_clone.png",
     description: "The clone of one of most used social",
     links: {
       repo: "https://github.com/SalvoBisconti/Twitter_clone",
       url: "https://twitter-clone-cyan-two.vercel.app/",
-    },
-  },
-  {
-    id: 8,
-    name: "Portfolio",
-    image: "/projects/portfolio.png",
-    description: "My first portfolio website",
-    links: {
-      repo: "https://github.com/SalvoBisconti/portfolio",
-      url: "https://portfolio-m19nx3rtp-salvobisconti.vercel.app/",
     },
   },
 ];
