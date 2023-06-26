@@ -18,6 +18,7 @@ const ItemList = (props: { type: string }) => {
               delay={i * 120}
               key={item.id}
               animateOnce={true}
+              animatePreScroll={false}
             >
               <SkillsCard data={item} />
             </AnimationOnScroll>
@@ -27,6 +28,7 @@ const ItemList = (props: { type: string }) => {
               animateIn="animate__bounceInLeft"
               key={item.id}
               animateOnce={true}
+              animatePreScroll={false}
             >
               <ProjectCard data={item} />
             </AnimationOnScroll>

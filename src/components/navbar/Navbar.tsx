@@ -24,9 +24,9 @@ const Navbar = () => {
 
   return (
     <div
-      className={`h-[80px] z-10 bg-trasparent fixed w-screen p-3  flex justify-between items-center transition-all duration-700 ${
+      className={`h-[50px] z-10 bg-trasparent fixed w-screen p-3  flex justify-between items-center transition-all duration-700 ${
         scroll > 0 &&
-        " absolute h-[45px] bg-[#100c08] md:shadow-sm md:shadow-[#ff6961] md:fixed "
+        " absolute  md:bg-[#100c08] md:shadow-sm md:shadow-[#ff6961] md:fixed "
       }`}
     >
       <h2 className="font-mono ">

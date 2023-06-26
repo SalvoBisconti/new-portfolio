@@ -9,7 +9,12 @@ const ProjectsSection = () => {
       className=" pb-8 flex flex-col justify-center  items-center "
       id="projects"
     >
-      <AnimationOnScroll animateIn="animate__bounceInRight" animateOnce={true}>
+      <AnimationOnScroll
+        animateIn="animate__bounceInRight"
+        animateOnce={true}
+        duration={1.5}
+        animatePreScroll={false}
+      >
         <HeaderText text="My projects" />
       </AnimationOnScroll>
       <ItemList type="projects" />

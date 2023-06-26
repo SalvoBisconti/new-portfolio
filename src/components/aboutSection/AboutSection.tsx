@@ -9,12 +9,22 @@ const AboutSection = () => {
       className=" pb-8 flex flex-col justify-center  items-center md:pb-20 "
       id="about"
     >
-      <AnimationOnScroll animateIn="animate__bounceInRight" animateOnce={true}>
+      <AnimationOnScroll
+        animateIn="animate__bounceInRight"
+        animateOnce={true}
+        duration={1.5}
+        animatePreScroll={false}
+      >
         <HeaderText text="About me" />
       </AnimationOnScroll>
 
       <div className=" w-screen flex flex-col justify-center items-center md:flex-row md:px-[50px]">
-        <AnimationOnScroll animateIn="animate__bounceInLeft" animateOnce={true}>
+        <AnimationOnScroll
+          animateIn="animate__bounceInLeft"
+          animateOnce={true}
+          duration={1.5}
+          animatePreScroll={false}
+        >
           <div className=" group flex relative cursor-pointer ">
             <div className="h-48 w-48  rounded z-20 md:h-52 md:w-52">
               <Image
@@ -32,8 +42,8 @@ const AboutSection = () => {
         </AnimationOnScroll>
         <AnimationOnScroll
           animateIn="animate__bounceInRight"
-          // animatePreScroll={true}
-          // initiallyVisible={false}
+          duration={1.5}
+          animatePreScroll={false}
           animateOnce={true}
         >
           <p className="mt-14 px-14 md:w-[100%]">
