@@ -11,6 +11,10 @@ export default function Document() {
             on the web  "
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="google-site-verification"
+          content="zJ0VgRqOPKzFZD_CjsOsbVVnMdemJSpX2zbbcmjwjPo"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
