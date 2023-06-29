@@ -1,4 +1,5 @@
 import { Dispatch } from "react";
+import { onClickAbout } from "@/utils/func";
 
 const List = (props: {
   display: string;
@@ -21,24 +22,33 @@ const List = (props: {
     >
       <li onClick={onHandleClose}>
         <a
-          className="text-[#ff6961] hover:underline underline-offset-8 "
-          href="#home"
+          className="text-[#ff6961] hover:underline underline-offset-8 cursor-pointer"
+          onClick={(e) => onClickAbout(e, "home")}
         >
           Home{" "}
         </a>
       </li>
       <li onClick={onHandleClose}>
-        <a className=" hover:underline underline-offset-8" href="#about">
+        <a
+          className=" hover:underline underline-offset-8 cursor-pointer"
+          onClick={(e) => onClickAbout(e, "about")}
+        >
           About me
         </a>
       </li>
       <li onClick={onHandleClose}>
-        <a className="hover:underline underline-offset-8" href="#skills">
+        <a
+          className="hover:underline underline-offset-8 cursor-pointer"
+          onClick={(e) => onClickAbout(e, "skills")}
+        >
           Skills
         </a>
       </li>
       <li onClick={onHandleClose}>
-        <a className="hover:underline underline-offset-8" href="#projects">
+        <a
+          className="hover:underline underline-offset-8 cursor-pointer"
+          onClick={(e) => onClickAbout(e, "projects")}
+        >
           Projects
         </a>
       </li>
