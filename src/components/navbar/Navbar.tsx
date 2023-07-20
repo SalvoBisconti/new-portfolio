@@ -29,10 +29,14 @@ const Navbar = () => {
         " absolute  md:bg-[#100c08] md:shadow-sm md:shadow-[#ff6961] md:fixed "
       }`}
     >
-      <h2 className="font-mono ">
+      <h1
+        className={` font-mono text-[#ff6961] font-bold md:text-xl transition-all duration-1000   ${
+          scroll > 0 && "md:text-lg"
+        }`}
+      >
         <span className={"text-white"}> {"<"} </span>
         Salvatore Bisconti <span className="text-white"> {"/>"} </span>
-      </h2>
+      </h1>
       <button
         className={` group md:hidden z-30  ${
           scroll > 0 && "fixed top-4 right-3"
