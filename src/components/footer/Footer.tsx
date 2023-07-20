@@ -1,7 +1,7 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
-import Link from "next/link";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { linkTo } from "@/utils/func";
 
 const Footer = () => {
   return (
@@ -16,19 +16,25 @@ const Footer = () => {
           <h3 className="text-center"> Follow me </h3>
           <ul className="flex gap-10 justify-center text-3xl text-slate-800">
             <li className="hover:text-black">
-              <Link href="https://www.instagram.com/salvo_bisco/">
+              <button
+                onClick={() => linkTo("https://www.instagram.com/salvo_bisco/")}
+              >
                 <AiFillInstagram />
-              </Link>
+              </button>
             </li>
             <li className="hover:text-black">
-              <Link href="https://linkedin.com/in/salvo-bisconti">
+              <button
+                onClick={() => linkTo("https://linkedin.com/in/salvo-bisconti")}
+              >
                 <AiFillLinkedin />
-              </Link>
+              </button>
             </li>
             <li className="hover:text-black">
-              <Link href="https://github.com/SalvoBisconti">
+              <button
+                onClick={() => linkTo("https://github.com/SalvoBisconti")}
+              >
                 <AiFillGithub />
-              </Link>
+              </button>
             </li>
           </ul>
           <h3 className=""> Copyright © 2023 | All rights reserved</h3>

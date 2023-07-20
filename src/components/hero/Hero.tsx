@@ -4,6 +4,7 @@ import "animate.css";
 import Link from "next/link";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
+import { linkTo } from "@/utils/func";
 
 const Hero = () => {
   return (
@@ -31,24 +32,30 @@ const Hero = () => {
 
         <ul className="absolute top-[35%] left-2 flex flex-col gap-10 justify-center text-3xl md:text-4xl md:left-8 text-[#b63f39]  ">
           <li className="hover:text-[#ff6961]">
-            <Link href="https://www.instagram.com/salvo_bisco/">
+            <button
+              onClick={() => linkTo("https://www.instagram.com/salvo_bisco/")}
+            >
               <AiFillInstagram />
-            </Link>
+            </button>
           </li>
           <li className="hover:text-[#ff6961]">
-            <Link href="https://linkedin.com/in/salvo-bisconti">
+            <button
+              onClick={() => linkTo("https://linkedin.com/in/salvo-bisconti")}
+            >
               <AiFillLinkedin />
-            </Link>
+            </button>
           </li>
           <li className="hover:text-[#ff6961]">
-            <Link href="https://github.com/SalvoBisconti">
+            <button onClick={() => linkTo("https://github.com/SalvoBisconti")}>
               <AiFillGithub />
-            </Link>
+            </button>
           </li>
           <li className="hover:text-[#ff6961]">
-            <Link href="mailto:salvatorebisconti98@gmail.com">
+            <button
+              onClick={() => linkTo("mailto:salvatorebisconti98@gmail.com")}
+            >
               <SiGmail />
-            </Link>
+            </button>
           </li>
         </ul>
       </AnimationOnScroll>
