@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`h-[40px] z-10 bg-trasparent fixed w-screen p-3  flex justify-between items-center transition-all duration-700 ${
+      className={`h-[70px] md:h-[45px] z-10 bg-trasparent fixed w-screen p-3  flex justify-between items-center transition-all duration-700 ${
         scroll > 0 &&
         " absolute  md:bg-[#100c08] md:shadow-sm md:shadow-[#ff6961] md:fixed "
       }`}
@@ -34,7 +34,7 @@ const Navbar = () => {
         Salvatore Bisconti <span className="text-white"> {"/>"} </span>
       </h2>
       <button
-        className={` group md:hidden z-30 ${
+        className={` group md:hidden z-30  ${
           scroll > 0 && "fixed top-4 right-3"
         }`}
         onClick={onHandleClick}
