@@ -32,6 +32,7 @@ const Hero = () => {
         <ul className="absolute top-[35%] left-2 flex flex-col gap-10 justify-center text-3xl md:text-4xl md:left-8 text-[#b63f39]  ">
           <li className="hover:text-[#ff6961]">
             <button
+              className="w-[48px] h-[48px]"
               onClick={() => linkTo("https://www.instagram.com/salvo_bisco/")}
             >
               <AiFillInstagram />
@@ -39,18 +40,23 @@ const Hero = () => {
           </li>
           <li className="hover:text-[#ff6961]">
             <button
+              className="w-[48px] h-[48px]"
               onClick={() => linkTo("https://linkedin.com/in/salvo-bisconti")}
             >
               <AiFillLinkedin />
             </button>
           </li>
           <li className="hover:text-[#ff6961]">
-            <button onClick={() => linkTo("https://github.com/SalvoBisconti")}>
+            <button
+              className="w-[48px] h-[48px]"
+              onClick={() => linkTo("https://github.com/SalvoBisconti")}
+            >
               <AiFillGithub />
             </button>
           </li>
           <li className="hover:text-[#ff6961]">
             <button
+              className="w-[48px] h-[48px]"
               onClick={() => linkTo("mailto:salvatorebisconti98@gmail.com")}
             >
               <SiGmail />
