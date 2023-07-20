@@ -1,7 +1,6 @@
 import { projectsType } from "@/mocks/projects";
 import { RiMacLine, RiGithubFill } from "react-icons/ri";
 import Link from "next/link";
-import { linkTo } from "@/utils/func";
 
 const ProjectCard = (props: { data: projectsType }) => {
   const { data } = props;

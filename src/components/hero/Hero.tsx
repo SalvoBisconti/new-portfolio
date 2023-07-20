@@ -19,15 +19,14 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center  ">
           <h2 className="text-3xl md:text-5xl text-white">
-            HI THERE <span className="">👋🏻</span> ! I'M
+            CIAO A TUTTI <span className="">👋🏻</span> ! SONO
           </h2>
           <h2 className="text-3xl md:text-5xl">SALVATORE</h2>
           <p className=" md:p-10 md:w-screen  w-[70%] py-4 text-center">
-            A <span className="">Front-end developer </span>
-            passionate about creating interactive applications and experiences
-            on the web
+            Un <span className="">Front-end developer </span>
+            che ama creare applicazioni web
           </p>
-          <Button text="Download resume" />
+          <Button text="Scarica curriculum" />
         </div>
 
         <ul className="absolute top-[35%] left-2 flex flex-col gap-10 justify-center text-3xl md:text-4xl md:left-8 text-[#b63f39]  ">

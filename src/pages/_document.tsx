@@ -2,21 +2,8 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
-      <Head>
-        <title>Salvatore Bisconti - Front-end developer</title>
-        <meta
-          name="description"
-          content="I'm a passionete front-end developer about creating interactive applications and experiences
-            on the web  "
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="google-site-verification"
-          content="zJ0VgRqOPKzFZD_CjsOsbVVnMdemJSpX2zbbcmjwjPo"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <Html lang="it">
+      <Head></Head>
       <body>
         <Main />
         <NextScript />

@@ -25,7 +25,7 @@ const List = (props: {
           className="text-[#ff6961] hover:underline underline-offset-8 cursor-pointer"
           onClick={(e) => onClickAbout(e, "home")}
         >
-          Home{" "}
+          Home
         </a>
       </li>
       <li onClick={onHandleClose}>
@@ -33,7 +33,7 @@ const List = (props: {
           className=" hover:underline underline-offset-8 cursor-pointer"
           onClick={(e) => onClickAbout(e, "about")}
         >
-          About me
+          Chi sono
         </a>
       </li>
       <li onClick={onHandleClose}>
@@ -49,7 +49,7 @@ const List = (props: {
           className="hover:underline underline-offset-8 cursor-pointer"
           onClick={(e) => onClickAbout(e, "projects")}
         >
-          Projects
+          Progetti
         </a>
       </li>
     </ul>

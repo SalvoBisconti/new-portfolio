@@ -15,7 +15,7 @@ const ProjectsSection = () => {
         duration={1.5}
         animatePreScroll={false}
       >
-        <HeaderText text="My projects" />
+        <HeaderText text="I miei progetti" />
       </AnimationOnScroll>
       <ItemList type="projects" />
     </div>

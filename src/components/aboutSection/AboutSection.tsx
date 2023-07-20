@@ -15,7 +15,7 @@ const AboutSection = () => {
         duration={1.5}
         animatePreScroll={false}
       >
-        <HeaderText text="About me" />
+        <HeaderText text="Chi sono" />
       </AnimationOnScroll>
 
       <div className=" w-screen flex flex-col justify-center items-center md:flex-row md:px-[50px]">
@@ -47,18 +47,19 @@ const AboutSection = () => {
           animateOnce={true}
         >
           <p className="mt-14 px-14 md:w-[100%]">
-            My name is Salvatore, but I prefer to be called Salvo, I am a boy of
-            '98 and currently I live in the province of Palermo. I’m a jr
-            front-end developer specialized in React and in the Next framework .
-            I’ve always been passionate about technology since i was child. I
-            graduated in computer science and recently I got the qualification
-            of "front-end developer" after attending an intensive bootcamp in
-            which I learned a lot. Why do I like to program? I think creating
-            something from scratch is one of the greatest satisfactions that
-            life can give you. Michelangelo had his brush, I have my computer. I
-            call myself a very curious guy. I always need to learn new things. I
-            think curiosity is what pushes everything forward. If man had not
-            been curious we would still have been in the Stone Age.
+            Mi chiamo Salvatore, ma preferisco essere chiamato Salvo, sono un
+            ragazzo del '98 ed attualmente vivo in provincia di Palermo. Sono un
+            front-end developer specializzato in React e nel framework Next.
+            Sono sempre stato appassionato di tecnologia fin da quando ero
+            bambino. Ho un diploma di informatica e recentemente ho ottenuto la
+            qualifica di "front-end developer" dopo aver frequentato un intenso
+            bootcamp in cui ho appreso molto. Perché mi piace programmare? Penso
+            che la creazione di qualcosa partendo da zero è una delle più grandi
+            soddisfazioni che la vita può dare. Michelangelo aveva il suo
+            pennello, io ho il mio computer. Mi definisco un ragazzo molto
+            curioso. Sento sempre la necessità di imparare cose nuove. Penso che
+            la curiosità è ciò che spinge tutto in avanti. Se l'uomo non fosse
+            stato curioso ci troveremmo ancora nell'età della pietra.
           </p>
         </AnimationOnScroll>
       </div>

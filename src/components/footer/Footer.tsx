@@ -13,7 +13,7 @@ const Footer = () => {
         animatePreScroll={false}
       >
         <div className=" h-[250px] flex flex-col items-center justify-center gap-8 font-medium ">
-          <h3 className="text-center"> Follow me </h3>
+          <h3 className="text-center font-bold"> Seguimi </h3>
           <ul className="flex gap-10 justify-center text-3xl text-slate-800">
             <li className="hover:text-black">
               <button

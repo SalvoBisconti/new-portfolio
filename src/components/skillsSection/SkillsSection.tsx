@@ -15,7 +15,7 @@ const SkillsSection = () => {
         duration={1.5}
         animatePreScroll={false}
       >
-        <HeaderText text="Skills-set" />
+        <HeaderText text="Le mie skills" />
       </AnimationOnScroll>
       <ItemList type="skills" />
     </div>

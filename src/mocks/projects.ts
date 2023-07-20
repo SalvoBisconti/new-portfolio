@@ -14,62 +14,74 @@ export interface projectsType {
 export const projects: projectsType[] = [
   {
     id: 1,
-    name: "Crypie",
-    image: "/projects/Crypie.png",
+    name: "Invertir",
+    image: "/projects/invertir.png",
     description:
-      "Crypie was born from the idea of providing users with a web application that differs from competitors thanks to its unique design. The design was designed totally from scratch using the 'Adobe xd' tool, with mobile first in mind, following the UI/UX desing process",
+      "Invertir è un sito vetrina realizzato per un cliente che si occupa di consulenza finanziaria. Il template è disponibile per eventuali repliche. ",
     links: {
-      repo: " https://github.com/SalvoBisconti/final-project-b-0423",
-      url: "https://final-project-b-0423.vercel.app/",
+      repo: "https://github.com/SalvoBisconti/consulting_template",
+      url: "https://master.d2og3nvbkbhmis.amplifyapp.com/",
     },
   },
   {
     id: 2,
+    name: "Crypie",
+    image: "/projects/Crypie.png",
+    description:
+      "Crypie nasce dall'idea di fornire agli utenti un'applicazione web che differisce dalla concorrenza grazie al suo design unico. Il design è stato progettato totalmente da zero utilizzando lo strumento 'Adobe xd', con la logica del mobile-first. ",
+    links: {
+      repo: "https://github.com/SalvoBisconti/final-project-b-0423",
+      url: "https://final-project-b-0423.vercel.app/",
+    },
+  },
+  {
+    id: 3,
     name: "Portfolio",
     image: "/projects/portfolio.png",
-    description: "My first portfolio website",
+    description: "Ecco il mio primissimo portfolio.",
     links: {
       repo: "https://github.com/SalvoBisconti/portfolio",
       url: "https://portfolio-m19nx3rtp-salvobisconti.vercel.app/",
     },
   },
   {
-    id: 3,
+    id: 4,
     name: "My Cocktails",
     image: "/projects/myCocktails.png",
     description:
-      "MyCocktails is a website of cocktails providing an API shows all the existing alcoholic and non-alcoholic cocktails",
+      "MyCocktails è un sito web che mostra una grandissima varietà di cocktails con le relative ricette ed ingredienti.",
     links: {
       repo: "https://github.com/SalvoBisconti/Cocktails--website",
       url: "https://cocktails-website.vercel.app/",
     },
   },
   {
-    id: 4,
+    id: 5,
     name: "Calendar",
     image: "/projects/calendar.png",
-    description: "A simple calendar app",
+    description: 'Un "semplice" calendario.',
     links: {
       repo: "https://github.com/SalvoBisconti/calendar",
       url: "https://calendar-iota-five.vercel.app/",
     },
   },
   {
-    id: 5,
+    id: 6,
     name: "ITRAVEL",
     image: "/projects/Itravel.png",
     description:
-      "A web application for an tour operetor where there are cities and activities. The API provider decided to delete it recently, so I decided to use mocks to keep the app running",
+      "Un sito web che vuole simulare un tour operator. L'API è stata di recente eliminato, ho così deciso di utilizzare un mock di dati per mantenere in vita l'applicazione.",
     links: {
       repo: "https://github.com/SalvoBisconti/ITravel",
       url: "https://itravel-red.vercel.app/",
     },
   },
   {
-    id: 6,
+    id: 7,
     name: "MyEcommerce",
     image: "/projects/myEcommerce.png",
-    description: "An ecommerce project realized with React.js",
+    description:
+      "Simulazione di un ecommerce realizzato con l'utilizzo di React.",
     links: {
       repo: "https://github.com/SalvoBisconti/Ecommerce",
       url: "https://ecommerce-iota-lovat.vercel.app/",
@@ -77,20 +89,21 @@ export const projects: projectsType[] = [
   },
 
   {
-    id: 7,
+    id: 8,
     name: "TodoList",
     image: "/projects/todoList.png",
-    description: "An todo list app where is possible add/remove a todo ",
+    description:
+      "Un'app delle cose da fare in cui è possibile aggiungere e rimuovere un'azione. ",
     links: {
       repo: "https://github.com/SalvoBisconti/TodoList",
       url: "https://todo-list-ashen-theta.vercel.app/",
     },
   },
   {
-    id: 8,
+    id: 9,
     name: "Twitter Clone",
     image: "/projects/Twitter_clone.png",
-    description: "The clone of one of most used social",
+    description: "Clone di uno dei più famosi social networks utilizzati.",
     links: {
       repo: "https://github.com/SalvoBisconti/Twitter_clone",
       url: "https://twitter-clone-cyan-two.vercel.app/",
