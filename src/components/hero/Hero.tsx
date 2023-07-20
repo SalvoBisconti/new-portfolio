@@ -19,7 +19,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center  ">
           <h2 className="text-3xl md:text-5xl text-white">
-            CIAO A TUTTI <span className="">👋🏻</span> ! SONO
+            CIAO <span className="">👋🏻</span> ! SONO
           </h2>
           <h2 className="text-3xl md:text-5xl">SALVATORE</h2>
           <p className=" md:p-10 md:w-screen  w-[70%] py-4 text-center">
