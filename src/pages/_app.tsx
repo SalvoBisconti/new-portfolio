@@ -26,7 +26,8 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="robots" content="index,nofollow" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#ff6961" />
+        <link rel="icon" type="image/x-icon" href="favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
