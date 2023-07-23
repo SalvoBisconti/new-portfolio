@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta httpEquiv="content-language" content="IT" />
         <meta
           name="keywords"
-          content="Salvatore Bisconti, Salvo Bisconti, Front-end developer, developer, siti web, developer, sviluppatore web, web developer, front end developer"
+          content="Salvatore Bisconti, Salvo Bisconti, Front-end developer, developer, siti web, developer, sviluppatore web, web developer, front end developer, developer palermo"
         />
         <meta
           name="description"
@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="robots" content="index,nofollow" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#100c084c" />
+        <meta name="theme-color" content="#161a1d" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
       </Head>
       <Component {...pageProps} />
