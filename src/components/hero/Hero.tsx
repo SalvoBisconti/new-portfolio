@@ -1,7 +1,6 @@
 import Button from "../button";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
-import Link from "next/link";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
 import { linkTo } from "@/utils/func";
@@ -26,7 +25,7 @@ const Hero = () => {
             Un <span className="">Front-end developer </span>
             che ama creare applicazioni web
           </p>
-          <Button text="Scarica curriculum" />
+          <Button text="Download CV" display="block" />
         </div>
 
         <ul className="absolute top-[35%] left-2 flex flex-col gap-10 justify-center text-3xl md:text-4xl md:left-8 text-[#b63f39]  ">
