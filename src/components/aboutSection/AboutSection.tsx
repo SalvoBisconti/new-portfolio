@@ -37,7 +37,7 @@ const AboutSection = () => {
                 style={{ width: "100%", height: "auto" }}
               />
             </div>
-            <div className="h-48 w-48  md:h-52 md:w-52 border-4 rounded  border-[#ff6961] top-8 -right-8 absolute group-hover:translate-x-2 group-hover:translate-y-2 transition-all duration-500"></div>
+            <div className="h-48 w-48  md:h-52 md:w-52 border-4 rounded  border-second top-8 -right-8 absolute group-hover:translate-x-2 group-hover:translate-y-2 transition-all duration-500"></div>
           </div>
         </AnimationOnScroll>
         <AnimationOnScroll

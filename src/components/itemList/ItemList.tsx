@@ -29,6 +29,7 @@ const ItemList = (props: { type: string }) => {
               key={item.id}
               animateOnce={true}
               animatePreScroll={false}
+              duration={1.7}
             >
               <ProjectCard data={item} />
             </AnimationOnScroll>

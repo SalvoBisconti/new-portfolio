@@ -12,28 +12,11 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      // keyframes: {
-      //   blinker: {
-      //     "0%": {
-      //       borderRightColor: "red",
-      //     },
-      //     "100%": {
-      //       borderRightColor: "trasparent",
-      //     },
-      //   },
-      //   typewriter: {
-      //     "0%": {
-      //       width: "0",
-      //     },
-      //     "100%": {
-      //       width: "180px",
-      //     },
-      //   },
-      // },
-      // animation: {
-      //   blinkerOn: "blinker 2s steps(44) 1s 1 normal both ",
-      //   typewriting: "typewriter 700ms infinite ",
-      // },
+      colors: {
+        first: "#100c084c",
+        second: "#ff6961",
+        strongSecond: "#b63f39",
+      },
     },
   },
   plugins: [],

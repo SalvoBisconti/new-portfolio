@@ -26,11 +26,11 @@ const Navbar = () => {
     <div
       className={`h-[70px] md:h-[45px] z-10 bg-trasparent fixed w-screen p-3  flex justify-between items-center transition-all duration-700 ${
         scroll > 0 &&
-        " absolute  md:bg-[#100c08] md:shadow-sm md:shadow-[#ff6961] md:fixed "
+        " absolute  md:bg-[#100c08] md:shadow-sm md:shadow-second md:fixed "
       }`}
     >
       <h1
-        className={` font-mono text-[#ff6961] font-bold md:text-xl transition-all duration-1000   ${
+        className={` font-mono text-second font-bold md:text-xl transition-all duration-1000   ${
           scroll > 0 && "md:text-lg"
         }`}
       >
@@ -50,17 +50,17 @@ const Navbar = () => {
         >
           <div className="flex flex-col justify-between w-[24px] h-[24px] transform transition-all duration-300 origin-center overflow-hidden ">
             <div
-              className={`bg-[#ff6961] h-[3px] w-8 transform transition-all duration-300 origin-left ${
+              className={`bg-second h-[3px] w-8 transform transition-all duration-300 origin-left ${
                 openMenu && "rotate-[42deg]"
               }`}
             ></div>
             <div
-              className={`bg-[#ff6961] h-[3px] w-1/2 rounded transform transition-all duration-300  0 ${
+              className={`bg-second h-[3px] w-1/2 rounded transform transition-all duration-300  0 ${
                 openMenu && "hidden"
               } `}
             ></div>
             <div
-              className={`bg-[#ff6961] h-[3px] w-8 transform transition-all duration-300 origin-left ${
+              className={`bg-second h-[3px] w-8 transform transition-all duration-300 origin-left ${
                 openMenu && "-rotate-[42deg]"
               }`}
             ></div>

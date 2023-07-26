@@ -11,8 +11,8 @@ export const onClickAbout = (e: any, anchor: string): void => {
   scrolling.scrollIntoView();
 };
 
-export const linkTo = (url: string): any => {
+export const linkTo = (url: string, tab: string): any => {
   if (typeof window !== "undefined") {
-    window.open(url, "_blank");
+    window.open(url, tab);
   }
 };

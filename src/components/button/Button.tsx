@@ -1,14 +1,23 @@
-import { saveFile } from "@/utils/func";
 import { BiDownload } from "react-icons/bi";
+import { IoReturnDownBack } from "react-icons/io5";
 
-const Button = (props: { text: string; display: string }) => {
-  const { text, display } = props;
+const Button = (props: {
+  text: string;
+  display: string;
+  onClickFunc: any;
+  icon: string;
+}) => {
+  const { text, display, onClickFunc, icon } = props;
   return (
     <button
-      className="bg-[#ff6961] p-2 text-[#161a1d] font-bold rounded-lg hover:bg-[#b63f39] flex items-center gap-1 group "
-      onClick={saveFile}
+      className="bg-second p-2 text-white font-bold rounded-lg hover:bg-strongSecond flex items-center gap-2 group "
+      onClick={onClickFunc}
     >
-      <BiDownload className={`text-3xl mb-1 ${display}`} />
+      {icon === "arrow" ? (
+        <IoReturnDownBack className="text-3xl mt-1 " />
+      ) : (
+        <BiDownload className={`text-3xl mb-1 ${display}`} />
+      )}
       {text}
     </button>
   );

@@ -5,7 +5,7 @@ import { linkTo } from "@/utils/func";
 
 const Footer = () => {
   return (
-    <div className="h-[250px] bg-[#ff6961] text-black w-screen  ">
+    <div className="h-[250px] bg-second text-black w-screen  ">
       <AnimationOnScroll
         animateIn="animate__bounceInLeft"
         animateOnce={true}
@@ -18,7 +18,9 @@ const Footer = () => {
             <li className="hover:text-black">
               <button
                 className="w-[48px] h-[48px]"
-                onClick={() => linkTo("https://www.instagram.com/salvo_bisco/")}
+                onClick={() =>
+                  linkTo("https://www.instagram.com/salvo_bisco/", "_blank")
+                }
               >
                 <AiFillInstagram className="w-[40px] h-[40px]" />
               </button>
@@ -26,7 +28,9 @@ const Footer = () => {
             <li className="hover:text-black">
               <button
                 className="w-[48px] h-[48px]"
-                onClick={() => linkTo("https://linkedin.com/in/salvo-bisconti")}
+                onClick={() =>
+                  linkTo("https://linkedin.com/in/salvo-bisconti", "_blank")
+                }
               >
                 <AiFillLinkedin className="w-[40px] h-[40px]" />
               </button>
@@ -34,13 +38,15 @@ const Footer = () => {
             <li className="hover:text-black">
               <button
                 className="w-[48px] h-[48px]"
-                onClick={() => linkTo("https://github.com/SalvoBisconti")}
+                onClick={() =>
+                  linkTo("https://github.com/SalvoBisconti", "_blank")
+                }
               >
                 <AiFillGithub className="w-[40px] h-[40px]" />
               </button>
             </li>
           </ul>
-          <h3 className=""> Copyright © 2023 | All rights reserved</h3>
+          <h3 className=""> Copyright © 2023 | Tutti i diritti riservati</h3>
         </div>
       </AnimationOnScroll>
     </div>
