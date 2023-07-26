@@ -109,4 +109,15 @@ export const projects: projectsType[] = [
       url: "https://twitter-clone-cyan-two.vercel.app/",
     },
   },
+  {
+    id: 10,
+    name: "MovHorror",
+    image: "/projects/movhorror.png",
+    description:
+      "Movhorror è il mio primo progetto realizzato come developer. È la versione horror di Netflix, realizzato attraverso l'utilizzo HTML, CSS e JavaScript vanilla. ",
+    links: {
+      repo: "https://github.com/SalvoBisconti/MovHorror--codeweek_project",
+      url: "https://movhorror.vercel.app/index.html",
+    },
+  },
 ];
