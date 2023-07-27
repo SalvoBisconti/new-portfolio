@@ -76,7 +76,7 @@ const Hero = () => {
           </li>
         </ul>
       </AnimationOnScroll>
-      <h2 className="absolute bottom-[44vw] -right-[9vw] -rotate-[38deg] text-[22vw] -z-20 text-[#36454F] md:bottom-[26vw] md:right-[4vw] md:text-[150px] xl:right-[10vw] xl:bottom-[16vw] xl:text-[230px] xl:-rotate-[25deg] transition-all overflow-hidden">
+      <h2 className="absolute bottom-[44vw] -right-[8vw] -rotate-[38deg] text-[22vw] -z-20 text-[#36454F] md:bottom-[26vw] md:right-[4vw] md:text-[150px] xl:right-[10vw] xl:bottom-[16vw] xl:text-[230px] xl:-rotate-[25deg] transition-all overflow-hidden">
         {" "}
         DEVELOPER
       </h2>
