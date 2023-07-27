@@ -18,6 +18,7 @@ html {
 
 body {
   background-color: #161a1d;
+  position: fixed;
   color: white;
   overflow-x: hidden;
 }
