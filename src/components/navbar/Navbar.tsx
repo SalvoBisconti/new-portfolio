@@ -79,9 +79,9 @@ const Navbar = () => {
       />
 
       <div
-        className={` ${
-          openMenu ? " right-[0px]  delay-75 " : "h-0 w-0    "
-        } z-20 fixed h-screen w-screen  bg-[#161a1d] top-[0px] right-[-1000px] p-3  flex justify-center items-center md:hidden  transition-all duration-1000`}
+        className={`  ${
+          openMenu ? " right-[0px] " : "h-0 w-0    "
+        } z-20 fixed h-screen w-screen   bg-[#161a1d] top-[0px] right-[-1000px] p-3  flex justify-center items-center md:hidden  transition-all duration-[1300ms]`}
       >
         <List
           display={` ${openMenu ? "block" : "hidden"} `}

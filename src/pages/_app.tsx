@@ -28,7 +28,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#161a1d" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
