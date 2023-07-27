@@ -50,7 +50,7 @@ const Navbar = () => {
         >
           <div className="flex flex-col justify-between w-[24px] h-[24px] transform transition-all duration-300 origin-center overflow-hidden ">
             <div
-              className={`bg-second h-[3px] w-9 transform transition-all duration-300 origin-left  ${
+              className={`bg-second h-[3px] w-8 rounded transform transition-all duration-300 origin-left  ${
                 openMenu && "rotate-[42deg]"
               } ${scroll > 0 && "bg-white"}
               `}
@@ -61,7 +61,7 @@ const Navbar = () => {
               } ${scroll > 0 && "bg-white"}`}
             ></div>
             <div
-              className={`bg-second h-[3px] w-8 transform transition-all duration-300 origin-left ${
+              className={`bg-second h-[3px] w-8 rounded transform transition-all duration-300 origin-left ${
                 openMenu && "-rotate-[42deg]"
               } ${scroll > 0 && "bg-white"}`}
             ></div>
