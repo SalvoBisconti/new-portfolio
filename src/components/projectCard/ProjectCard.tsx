@@ -7,7 +7,7 @@ const ProjectCard = (props: { data: projectsType }) => {
   const { data } = props;
 
   return (
-    <div className="relative flex flex-col  items-center justify-center gap-2  w-[110vw] rounded-xl p-6 bg-first md:flex-row md:w-[800px] xl:w-[68vw]  ">
+    <div className="relative flex flex-col  items-center justify-center gap-2  w-[110vw] rounded-xl p-6 bg-first md:bg-transparent md:shadow-normal md:shadow-second md:p-12 md:flex-row md:w-[800px] xl:w-[68vw]  ">
       <h3 className=" text-xl bold  md:hidden uppercase "> {data.name}</h3>
       <img
         className="w-[75%] rounded-xl md:w-[55%]"
