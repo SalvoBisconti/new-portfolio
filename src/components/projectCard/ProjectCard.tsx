@@ -1,6 +1,7 @@
 import { projectsType } from "@/mocks/projects";
 import { RiMacLine, RiGithubFill } from "react-icons/ri";
 import Link from "next/link";
+import { linkTo } from "@/utils/func";
 
 const ProjectCard = (props: { data: projectsType }) => {
   const { data } = props;
@@ -21,16 +22,22 @@ const ProjectCard = (props: { data: projectsType }) => {
         <p className="text-center px-6 py-4"> {data.description}</p>
         <ul className="flex items-center justify-evenly list-none  w-[100%] md:absolute md:bottom-2 md:w-[60%]">
           <li className="bg-second p-2 text-[#161a1d] font-bold rounded-lg hover:bg-strongSecond cursor-pointer">
-            <Link href={data.links.repo} className="flex items-center gap-2">
+            <button
+              onClick={() => linkTo(data.links.repo, "_blank")}
+              className="flex items-center gap-2"
+            >
               <RiGithubFill />
               <span className="">Repository</span>
-            </Link>
+            </button>
           </li>
           <li className="bg-second p-2 text-[#161a1d] font-bold rounded-lg hover:bg-strongSecond cursor-pointer">
-            <Link href={data.links.url} className="flex items-center gap-2 ">
+            <button
+              onClick={() => linkTo(data.links.url, "_blank")}
+              className="flex items-center gap-2 "
+            >
               <RiMacLine />
               <span className="">Demo </span>
-            </Link>
+            </button>
           </li>
         </ul>
       </div>
