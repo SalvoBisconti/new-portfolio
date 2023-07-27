@@ -11,7 +11,7 @@ const ProjectsSection = () => {
     >
       <div className="md:w-[50vw]">
         <AnimationOnScroll
-          animateIn="animate__bounceInRight"
+          animateIn="animate__bounceInLeft"
           animateOnce={true}
           duration={1.5}
           animatePreScroll={false}

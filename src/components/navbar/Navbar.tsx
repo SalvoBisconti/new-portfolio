@@ -37,7 +37,7 @@ const Navbar = () => {
         <span className={"text-white"}> {"<"} </span>
         Salvatore Bisconti <span className="text-white"> {"/>"} </span>
       </h1>
-      {/* <button
+      <button
         className={` group md:hidden z-30  ${
           scroll > 0 && "fixed top-4 right-3"
         }`}
@@ -66,7 +66,7 @@ const Navbar = () => {
             ></div>
           </div>
         </div>
-      </button> */}
+      </button>
 
       <List
         display="hidden"
