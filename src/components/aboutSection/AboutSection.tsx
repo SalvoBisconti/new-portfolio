@@ -46,7 +46,7 @@ const AboutSection = () => {
           animatePreScroll={false}
           animateOnce={true}
         >
-          <p className="mt-14 px-14 md:w-[100%] md:text-lg">
+          <p className="mt-14 px-14 md:w-[100%] md:text-lg text-justify">
             Il mio nome è Salvatore, ma preferisco essere chiamato Salvo, sono
             un ragazzo del '98 ed attualmente vivo in provincia di Palermo. Sono
             un front-end developer specializzato in React e nel framework Next.
