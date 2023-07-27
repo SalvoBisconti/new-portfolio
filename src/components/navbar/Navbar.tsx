@@ -1,5 +1,6 @@
 import List from "../list";
 import { useState, useEffect } from "react";
+import Typewriter from "typewriter-effect";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState<boolean>(false);
@@ -30,12 +31,20 @@ const Navbar = () => {
       }`}
     >
       <h1
-        className={` font-mono text-second font-bold md:text-xl transition-all duration-1000   ${
+        className={` font-mono text-white font-bold md:text-xl text-lg transition-all duration-1000   ${
           scroll > 0 && "md:text-lg"
         }`}
+        id="prova"
       >
-        <span className={"text-white"}> {"<"} </span>
-        Salvatore Bisconti <span className="text-white"> {"/>"} </span>
+        <Typewriter
+          options={{
+            strings: [
+              '<strong> < <span style="color: #ff6961;">Salvatore Bisconti</span> /></strong>',
+            ],
+            autoStart: true,
+            loop: true,
+          }}
+        />
       </h1>
       <button
         className={` group md:hidden z-30  ${
