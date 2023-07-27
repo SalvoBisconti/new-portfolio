@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`h-[70px] md:h-[45px] z-10 bg-trasparent fixed w-screen p-3  flex justify-between items-center transition-all duration-700 ${
+      className={`h-[70px] md:h-[45px] z-10 bg-trasparent fixed w-screen p-3  flex justify-between items-center transition-all duration-700 border-2 ${
         scroll > 0 &&
         " absolute  md:bg-[#100c08] md:shadow-sm md:shadow-second md:fixed "
       }`}

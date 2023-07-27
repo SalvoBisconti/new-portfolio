@@ -6,7 +6,7 @@ import HeaderText from "../headerText";
 const SkillsSection = () => {
   return (
     <div
-      className=" pb-8 flex flex-col justify-center  items-center bg-first  "
+      className=" pb-8 flex flex-col justify-center  items-center bg-first border-2 "
       id="skills"
     >
       <AnimationOnScroll

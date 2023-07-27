@@ -6,7 +6,7 @@ import "animate.css";
 const ProjectsSection = () => {
   return (
     <div
-      className="pb-8 flex flex-col justify-center  items-center  "
+      className="pb-8 flex flex-col justify-center  items-center border-2  "
       id="projects"
     >
       <div className="md:w-[50vw]">
