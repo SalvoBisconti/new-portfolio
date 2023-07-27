@@ -17,10 +17,12 @@ const Hero = () => {
         initiallyVisible={true}
       >
         <div className="flex flex-col justify-center items-center  ">
-          <h2 className="text-3xl md:text-5xl text-white">
+          <h2 className="text-3xl md:text-5xl text-white [text-shadow:_0_1px_0_rgb(255_0_0_/_90%)]">
             CIAO <span className="">👋🏻</span> ! SONO
           </h2>
-          <h2 className="text-3xl md:text-5xl">SALVATORE</h2>
+          <h2 className="text-3xl md:text-5xl [text-shadow:_0_1px_0_rgb(255_255_255_/_60%)] ">
+            SALVO
+          </h2>
           <p className=" md:p-10 md:w-screen  w-[70%] py-4 text-center">
             Un <span className="">Front-end developer </span>
             che ama creare applicazioni web
