@@ -76,6 +76,10 @@ const Hero = () => {
           </li>
         </ul>
       </AnimationOnScroll>
+      <h2 className="absolute bottom-[44vw] -right-[14vw] -rotate-[38deg] text-[23vw] -z-20 text-[#36454F] md:bottom-[26vw] md:right-[4vw] md:text-[150px] xl:right-[10vw] xl:bottom-[16vw] xl:text-[230px] xl:-rotate-[25deg]  transition-all">
+        {" "}
+        DEVELOPER
+      </h2>
     </div>
   );
 };

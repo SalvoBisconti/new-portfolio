@@ -10,7 +10,11 @@ const ItemList = (props: { type: string }) => {
   const { type } = props;
 
   return (
-    <div className="flex flex-wrap justify-center gap-8 ">
+    <div
+      className={`flex flex-wrap justify-center gap-8 ${
+        type !== "skills" && "gap-24 md:gap-32"
+      } `}
+    >
       {type === "skills"
         ? skills?.map((item, i: number) => (
             <AnimationOnScroll

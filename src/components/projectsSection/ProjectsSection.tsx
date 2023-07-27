@@ -6,18 +6,20 @@ import "animate.css";
 const ProjectsSection = () => {
   return (
     <div
-      className=" pb-8 flex flex-col justify-center  items-center "
+      className="pb-8 flex flex-col justify-center  items-center  "
       id="projects"
     >
-      <AnimationOnScroll
-        animateIn="animate__bounceInRight"
-        animateOnce={true}
-        duration={1.5}
-        animatePreScroll={false}
-      >
-        <HeaderText text="I miei progetti" />
-      </AnimationOnScroll>
-      <ItemList type="projects" />
+      <div className="md:w-[50vw]">
+        <AnimationOnScroll
+          animateIn="animate__bounceInRight"
+          animateOnce={true}
+          duration={1.5}
+          animatePreScroll={false}
+        >
+          <HeaderText text="I miei progetti" />
+        </AnimationOnScroll>
+        <ItemList type="projects" />
+      </div>
     </div>
   );
 };

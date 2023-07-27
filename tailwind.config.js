@@ -17,6 +17,9 @@ module.exports = {
         second: "#ff6961",
         strongSecond: "#b63f39",
       },
+      screens: {
+        ciao: "800px",
+      },
     },
   },
   plugins: [],
