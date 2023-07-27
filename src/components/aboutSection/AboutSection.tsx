@@ -6,7 +6,7 @@ import "animate.css";
 const AboutSection = () => {
   return (
     <div
-      className=" pb-8 flex flex-col justify-center  items-center md:pb-20 border-2 "
+      className=" pb-8 flex flex-col justify-center  items-center md:pb-20 "
       id="about"
     >
       <AnimationOnScroll

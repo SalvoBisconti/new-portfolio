@@ -5,7 +5,7 @@ import { linkTo } from "@/utils/func";
 
 const Footer = () => {
   return (
-    <div className="h-[250px] bg-second text-black w-screen  border-2 ">
+    <div className="h-[250px] bg-second text-black w-screen ">
       <AnimationOnScroll
         animateIn="animate__bounceInLeft"
         animateOnce={true}

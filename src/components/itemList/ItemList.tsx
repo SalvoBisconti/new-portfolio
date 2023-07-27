@@ -11,7 +11,7 @@ const ItemList = (props: { type: string }) => {
 
   return (
     <div
-      className={`flex flex-wrap justify-center gap-8 border-2 ${
+      className={`flex flex-wrap justify-center gap-8  ${
         type !== "skills" && "gap-24 md:gap-32"
       } `}
     >

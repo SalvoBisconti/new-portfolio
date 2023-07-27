@@ -22,7 +22,7 @@ const List = (props: {
     >
       <li onClick={onHandleClose}>
         <a
-          className="text-second hover:underline underline-offset-8 cursor-pointer border-2"
+          className="text-second hover:underline underline-offset-8 cursor-pointer "
           onClick={(e) => onClickAbout(e, "home")}
         >
           Home
