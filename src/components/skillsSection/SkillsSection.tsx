@@ -10,7 +10,7 @@ const SkillsSection = () => {
       id="skills"
     >
       <AnimationOnScroll
-        animateIn="animate__bounceInRight"
+        animateIn="animate__bounceInLeft"
         animateOnce={true}
         duration={1.5}
         animatePreScroll={false}
