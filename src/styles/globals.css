@@ -21,6 +21,7 @@ body {
   position: fixed;
   color: white;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 h2 {
