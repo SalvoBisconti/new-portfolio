@@ -44,23 +44,23 @@ const Navbar = () => {
         onClick={onHandleClick}
       >
         <div
-          className={`relative flex overflow-hidden items-center justify-center rounded-full w-[48px] h-[48px] transform transition-all bg-slate-800  ring-0 ring-gray-300 hover:ring-4 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md ${
+          className={`relative flex overflow-hidden items-center justify-center rounded-full w-[48px] h-[48px] transform transition-all bg-second ring-0 ring-gray-300 hover:ring-4 group-focus:ring-4 ring-opacity-30 duration-200 shadow-md ${
             scroll > 0 && " ring-4 ring-opacity-30 "
           } `}
         >
           <div className="flex flex-col justify-between w-[24px] h-[24px] transform transition-all duration-300 origin-center overflow-hidden ">
             <div
-              className={`bg-second h-[3px] w-8 transform transition-all duration-300 origin-left ${
+              className={`bg-[#161a1d] h-[4px] w-9 transform transition-all duration-300 origin-left  ${
                 openMenu && "rotate-[42deg]"
               }`}
             ></div>
             <div
-              className={`bg-second h-[3px] w-1/2 rounded transform transition-all duration-300  0 ${
+              className={`bg-[#161a1d] h-[4px] w-2/3 rounded transform transition-all duration-300  0 ${
                 openMenu && "hidden"
               } `}
             ></div>
             <div
-              className={`bg-second h-[3px] w-8 transform transition-all duration-300 origin-left ${
+              className={`bg-[#161a1d] h-[4px] w-8 transform transition-all duration-300 origin-left ${
                 openMenu && "-rotate-[42deg]"
               }`}
             ></div>
