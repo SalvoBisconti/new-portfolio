@@ -52,18 +52,18 @@ const Navbar = () => {
             <div
               className={`bg-second h-[3px] w-9 transform transition-all duration-300 origin-left  ${
                 openMenu && "rotate-[42deg]"
-              } ${scroll > 0 && "bg-[#36454F] h-[4px]"}
+              } ${scroll > 0 && "bg-white h-[4px]"}
               `}
             ></div>
             <div
               className={`bg-second h-[3px] w-2/3 rounded transform transition-all duration-300  0 ${
                 openMenu && "hidden"
-              } ${scroll > 0 && "bg-[#36454F] h-[4px]"}`}
+              } ${scroll > 0 && "bg-white h-[4px]"}`}
             ></div>
             <div
               className={`bg-second h-[3px] w-8 transform transition-all duration-300 origin-left ${
                 openMenu && "-rotate-[42deg]"
-              } ${scroll > 0 && "bg-[#36454F] h-[4px]"}`}
+              } ${scroll > 0 && "bg-white h-[4px]"}`}
             ></div>
           </div>
         </div>
