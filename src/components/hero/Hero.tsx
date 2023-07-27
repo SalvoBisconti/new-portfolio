@@ -8,7 +8,7 @@ import { saveFile, linkTo } from "@/utils/func";
 const Hero = () => {
   return (
     <div
-      className="p-3 w-screen h-[calc(95vh)] flex flex-col justify-center items-center bg-first  "
+      className="p-3 w-screen h-[calc(95vh)] flex flex-col justify-center items-center bg-first md:text-lg "
       id="home"
     >
       <AnimationOnScroll
@@ -76,7 +76,7 @@ const Hero = () => {
           </li>
         </ul>
       </AnimationOnScroll>
-      <h2 className="absolute bottom-[44vw] -right-[5vw] -rotate-[45deg] text-[22vw] -z-20 text-[#36454F] md:bottom-[26vw] md:right-[4vw] md:text-[150px] xl:right-[10vw] xl:bottom-[16vw] xl:text-[230px] xl:-rotate-[25deg] transition-all">
+      <h2 className="absolute bottom-[44vw] -right-[5vw] -rotate-[45deg] text-[22vw] -z-20 text-[#36454F] md:bottom-[30vw] md:right-[4vw] md:text-[150px] md:-rotate-[25deg] xl:right-[10vw] xl:bottom-[26vw] xl:text-[215px] xl:-rotate-[25deg] transition-all ">
         {" "}
         DEVELOPER
       </h2>
