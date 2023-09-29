@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta httpEquiv="content-language" content="IT" />
         <meta
           name="keywords"
-          content="Salvatore Bisconti, Salvo Bisconti, Front-end developer, developer, siti web, developer, sviluppatore web, web developer, front end developer, frontend, developer palermo, sviluppatore"
+          content="Salvatore Bisconti, Salvo Bisconti, Front-end developer, developer, siti web, developer, sviluppatore web, web developer, front end developer, frontend, developer palermo, sviluppatore, informatica"
         />
         <meta
           name="description"
