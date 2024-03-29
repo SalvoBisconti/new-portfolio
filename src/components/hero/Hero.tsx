@@ -24,12 +24,13 @@ const Hero = () => {
             SALVO
           </h2>
           <p className=" md:p-10 md:w-screen  w-[70%] py-4 text-center">
-            Un <span className="">Front-end developer </span>
+            Un <span>Front-end developer </span>
             che ama creare applicazioni web
           </p>
           <Button
             text="Download CV"
             display="block"
+            textColor={"text-white"}
             onClickFunc={saveFile}
             icon="download"
           />

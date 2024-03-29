@@ -1,7 +1,6 @@
 import { projectsType } from "@/mocks/projects";
-import { RiMacLine, RiGithubFill } from "react-icons/ri";
-import Link from "next/link";
 import { linkTo } from "@/utils/func";
+import Button from "../button";
 
 const ProjectCard = (props: { data: projectsType }) => {
   const { data } = props;
@@ -20,26 +19,22 @@ const ProjectCard = (props: { data: projectsType }) => {
           {data.name}
         </h3>
         <p className="text-center px-6 py-4 xl:text-lg"> {data.description}</p>
-        <ul className="flex items-center justify-evenly list-none  w-[100%]  md:w-[90%] ">
-          <li className="bg-second p-2 text-[#161a1d] font-bold rounded-lg hover:bg-strongSecond cursor-pointer">
-            <button
-              onClick={() => linkTo(data.links.repo, "_blank")}
-              className="flex items-center gap-2 "
-            >
-              <RiGithubFill />
-              <span className="">Repository</span>
-            </button>
-          </li>
-          <li className="bg-second p-2 text-[#161a1d] font-bold rounded-lg hover:bg-strongSecond cursor-pointer">
-            <button
-              onClick={() => linkTo(data.links.url, "_blank")}
-              className="flex items-center gap-2 "
-            >
-              <RiMacLine />
-              <span className="">Demo </span>
-            </button>
-          </li>
-        </ul>
+        <div className="flex items-center justify-evenly list-none  w-[100%]  md:w-[90%] ">
+          <Button
+            text="Repository"
+            display={null}
+            textColor={"text-black"}
+            onClickFunc={() => linkTo(data.links.repo, "_blank")}
+            icon="repo"
+          />
+          <Button
+            text="Demo"
+            display={null}
+            textColor={"text-black"}
+            onClickFunc={() => linkTo(data.links.url, "_blank")}
+            icon="demo"
+          />
+        </div>
       </div>
     </div>
   );

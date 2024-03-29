@@ -22,43 +22,63 @@ export const skills: skillsType[] = [
   },
   {
     id: 4,
-    name: "SASS",
-    image: "/icons/sass.png",
+    name: "TYPESCRIPT",
+    image: "/icons/typescript.png",
   },
   {
     id: 5,
+    name: "JAVA",
+    image: "/icons/java.png",
+  },
+  {
+    id: 6,
     name: "REACT",
     image: "/icons/atom.png",
   },
 
   {
-    id: 6,
-    name: "NEXT",
-    image: "/icons/nextjs.svg",
-  },
-  {
     id: 7,
-    name: "GIT",
-    image: "/icons/git.png",
+    name: "NEXT.JS",
+    image: "/icons/next.png",
   },
   {
     id: 8,
-    name: "GITHUB",
-    image: "/icons/github.png",
+    name: "NODE.JS",
+    image: "/icons/node.webp",
   },
   {
     id: 9,
+    name: "SASS",
+    image: "/icons/sass.png",
+  },
+  {
+    id: 10,
+    name: "TAILWIND",
+    image: "/icons/tailwind.png",
+  },
+  {
+    id: 11,
     name: "REDUX",
     image: "/icons/redux.png",
   },
   {
-    id: 10,
-    name: "TYPESCRIPT",
-    image: "/icons/typescript.png",
+    id: 12,
+    name: "GIT",
+    image: "/icons/git.png",
   },
   {
-    id: 11,
-    name: "TAILWIND",
-    image: "/icons/tailwind.png",
+    id: 13,
+    name: "GITHUB",
+    image: "/icons/github.png",
+  },
+  {
+    id: 14,
+    name: "VERCEL",
+    image: "/icons/vercel.png",
+  },
+  {
+    id: 15,
+    name: "AWS",
+    image: "/icons/aws.png",
   },
 ];

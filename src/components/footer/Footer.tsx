@@ -2,6 +2,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css";
 import { AiFillInstagram, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { linkTo } from "@/utils/func";
+import Button from "../button";
 
 const Footer = () => {
   return (

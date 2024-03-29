@@ -29,6 +29,7 @@ export default function error() {
               linkTo("https://dev.salvatorebisconti.com/", "_self")
             }
             icon="arrow"
+            textColor={"text-black"}
           />
         </div>
       </div>
