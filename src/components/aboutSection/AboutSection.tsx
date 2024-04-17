@@ -49,12 +49,13 @@ const AboutSection = () => {
           <p className="mt-14 px-14 md:w-[100%] md:text-lg text-justify">
             Il mio nome è Salvatore, ma preferisco essere chiamato Salvo, sono
             un ragazzo del '98 ed attualmente vivo in provincia di Palermo. Sono
-            un front-end developer specializzato in React e nel framework Next.
-            Sono sempre stato appassionato di tecnologia fin da quando ero
-            bambino. Ho un diploma di informatica e recentemente ho ottenuto la
-            qualifica di "front-end developer" dopo aver frequentato un intenso
-            bootcamp in cui ho appreso molto. Perché mi piace programmare? Penso
-            che la creazione di qualcosa partendo da zero è una delle più grandi
+            un Full-stack developer specializzato in React/Next lato front-end e
+            Java/Spring Boot lato backend. Sono sempre stato appassionato di
+            tecnologia fin da quando ero bambino. Ho un diploma di informatica e
+            ho due qualifiche in ambito coding ('Front-end developer', 'Java
+            developer') dopo aver frequentato due intensi bootcamp in cui ho
+            appreso tantissimo. Perché mi piace programmare? Penso che la
+            creazione di qualcosa partendo da zero è una delle più grandi
             soddisfazioni che la vita può dare. Michelangelo aveva il suo
             pennello, io ho il mio computer. Mi definisco un ragazzo molto
             curioso. Sento sempre la necessità di imparare cose nuove. Penso che

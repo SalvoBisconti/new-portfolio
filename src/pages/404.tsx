@@ -6,7 +6,7 @@ export default function error() {
   return (
     <>
       <Head>
-        <title>Salvatore Bisconti - Errore</title>
+        <title>Salvo Bisconti - Errore</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="content-language" content="IT" />
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -25,9 +25,7 @@ export default function error() {
           <Button
             text="Ritorna alla home"
             display="block"
-            onClickFunc={() =>
-              linkTo("https://dev.salvatorebisconti.com/", "_self")
-            }
+            onClickFunc={() => linkTo("/", "_self")}
             icon="arrow"
             textColor={"text-black"}
           />

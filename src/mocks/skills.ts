@@ -32,52 +32,77 @@ export const skills: skillsType[] = [
   },
   {
     id: 6,
+    name: "SQL",
+    image: "/icons/sql.png",
+  },
+  {
+    id: 7,
+    name: "MYSQL",
+    image: "/icons/mysql.png",
+  },
+  {
+    id: 8,
     name: "REACT",
     image: "/icons/atom.png",
   },
 
   {
-    id: 7,
+    id: 9,
     name: "NEXT.JS",
     image: "/icons/next.png",
   },
   {
-    id: 8,
+    id: 10,
     name: "NODE.JS",
     image: "/icons/node.webp",
   },
   {
-    id: 9,
+    id: 11,
     name: "SASS",
     image: "/icons/sass.png",
   },
   {
-    id: 10,
+    id: 12,
     name: "TAILWIND",
     image: "/icons/tailwind.png",
   },
   {
-    id: 11,
+    id: 13,
+    name: "BOOTSTRAP",
+    image: "/icons/bootstrap.png",
+  },
+  {
+    id: 14,
+    name: "SPRING",
+    image: "/icons/spring.png",
+  },
+  {
+    id: 15,
+    name: "SPRING BOOT",
+    image: "/icons/springboot.png",
+  },
+  {
+    id: 16,
     name: "REDUX",
     image: "/icons/redux.png",
   },
   {
-    id: 12,
+    id: 17,
     name: "GIT",
     image: "/icons/git.png",
   },
   {
-    id: 13,
+    id: 18,
     name: "GITHUB",
     image: "/icons/github.png",
   },
   {
-    id: 14,
+    id: 19,
     name: "VERCEL",
     image: "/icons/vercel.png",
   },
   {
-    id: 15,
+    id: 20,
     name: "AWS",
     image: "/icons/aws.png",
   },

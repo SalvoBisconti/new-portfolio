@@ -6,9 +6,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Salvatore Bisconti</title>
+        <title>Salvo Bisconti</title>
         <meta charSet="utf-8" />
-        <meta name="author" content="Salvatore Bisconti" />
+        <meta name="author" content="Salvo Bisconti" />
         <meta httpEquiv="Reply-to" content="salvatorebisconti98@gmail.com" />
         <meta httpEquiv="content-language" content="IT" />
         <meta
@@ -17,11 +17,11 @@ export default function App({ Component, pageProps }: AppProps) {
         />
         <meta
           name="description"
-          content="Sono Salvatore Bisconti, un front-end developer che ama creare applicazioni web ..."
+          content="Sono Salvo Bisconti, un full-stack developer che ama creare applicazioni web ..."
         />
         <meta
           name="generator"
-          content="Salvatore Bisconti - Front-end developer"
+          content="Salvo Bisconti - Full-stack developer"
         />
         <meta name="robots" content="index,nofollow" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

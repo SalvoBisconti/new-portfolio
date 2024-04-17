@@ -39,7 +39,7 @@ const Navbar = () => {
         <Typewriter
           options={{
             strings: [
-              '<strong> < <span style="color: #ff6961;">Salvatore Bisconti</span> /></strong>',
+              '<strong> < <span style="color: #ff6961;">Salvo Bisconti</span> /></strong>',
             ],
             autoStart: true,
             loop: true,
