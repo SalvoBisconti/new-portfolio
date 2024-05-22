@@ -14,17 +14,6 @@ export interface projectsType {
 export const projects: projectsType[] = [
   {
     id: 1,
-    name: "Ecommerce Next.js",
-    image: "/projects/ecommerce_next.png",
-    description:
-      "Simulazione di un ecommerce realizzato con l'utilizzo di Next.js e TypeScript.",
-    links: {
-      repo: "https://github.com/SalvoBisconti/ecommerce__next",
-      url: "https://ecommerce-next-mocha-ten.vercel.app/",
-    },
-  },
-  {
-    id: 2,
     name: "Invertir",
     image: "/projects/invertir.png",
     description:
@@ -35,7 +24,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 3,
+    id: 2,
     name: "Crypie",
     image: "/projects/Crypie.png",
     description:
@@ -46,7 +35,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 4,
+    id: 3,
     name: "Portfolio",
     image: "/projects/portfolio.png",
     description: "Ecco il mio primissimo portfolio.",
@@ -56,7 +45,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 5,
+    id: 4,
     name: "My Cocktails",
     image: "/projects/myCocktails.png",
     description:
@@ -67,7 +56,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 6,
+    id: 5,
     name: "Calendar",
     image: "/projects/calendar.png",
     description: 'Un "semplice" calendario.',
@@ -77,7 +66,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 7,
+    id: 6,
     name: "MyEcommerce",
     image: "/projects/myEcommerce.png",
     description:
@@ -89,7 +78,7 @@ export const projects: projectsType[] = [
   },
 
   {
-    id: 8,
+    id: 7,
     name: "TodoList",
     image: "/projects/todoList.png",
     description:
@@ -100,7 +89,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 9,
+    id: 8,
     name: "Twitter Clone",
     image: "/projects/Twitter_clone.png",
     description: "Clone di uno dei più famosi social networks utilizzati.",
@@ -110,7 +99,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 10,
+    id: 9,
     name: "MovHorror",
     image: "/projects/movhorror.png",
     description:
