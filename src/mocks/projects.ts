@@ -78,17 +78,6 @@ export const projects: projectsType[] = [
   },
   {
     id: 7,
-    name: "ITRAVEL",
-    image: "/projects/Itravel.png",
-    description:
-      "Un sito web che vuole simulare un tour operator. L'API è stata di recente eliminato, ho così deciso di utilizzare un mock di dati per mantenere in vita l'applicazione.",
-    links: {
-      repo: "https://github.com/SalvoBisconti/ITravel",
-      url: "https://itravel-red.vercel.app/",
-    },
-  },
-  {
-    id: 8,
     name: "MyEcommerce",
     image: "/projects/myEcommerce.png",
     description:
@@ -100,7 +89,7 @@ export const projects: projectsType[] = [
   },
 
   {
-    id: 9,
+    id: 8,
     name: "TodoList",
     image: "/projects/todoList.png",
     description:
@@ -111,7 +100,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 10,
+    id: 9,
     name: "Twitter Clone",
     image: "/projects/Twitter_clone.png",
     description: "Clone di uno dei più famosi social networks utilizzati.",
@@ -121,7 +110,7 @@ export const projects: projectsType[] = [
     },
   },
   {
-    id: 11,
+    id: 10,
     name: "MovHorror",
     image: "/projects/movhorror.png",
     description:
